@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Basic -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Site Metas -->
+    <title>Tech Blog - Stylish Magazine Blog Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Design fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+
+      rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- FontAwesome Icons core CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Responsive styles for this template -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Colors for this template -->
+    <link href="css/colors.css" rel="stylesheet">
+    <!-- Version Tech CSS for this template -->
+    <link href="css/version/tech.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="tech-header header">
+        <div class="container-fluid">
+          <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+
+              data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+
+              aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button> <a class="navbar-brand" href="tech-index.html"><img src="images/version/tech-logo.png"
+
+                alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item"> <a class="nav-link" href="tech-index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown has-submenu menu-large hidden-md-down hidden-sm-down hidden-xs-down">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+
+                    aria-haspopup="true" aria-expanded="false">Noticias</a>
+                  <ul class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+                    <li>
+                      <div class="container">
+                        <div class="mega-menu-content clearfix">
+                          <div class="tab"> <button class="tablinks active" onclick="openCategory(event, 'cat01')">Cultura</button>
+                            <button class="tablinks" onclick="openCategory(event, 'cat02')">Tecnologia</button>
+                            <button class="tablinks" onclick="openCategory(event, 'cat03')">Ocio
+                              </button> <button class="tablinks" onclick="openCategory(event, 'cat04')">Coches
+                              </button> <button class="tablinks" onclick="openCategory(event, 'cat05')">Videojuegos</button>
+                          </div>
+                          <div class="tab-details clearfix">
+                            <div id="cat01" class="tabcontent active">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia1.html"
+
+                                        title=""> <img src="upload/tech_menu_01.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Cultura</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia1.html" title="">La
+                                          piedra de la discordia: Un granjero
+                                          mueve ua roca y cambia la frontera</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat02" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia2.html"
+
+                                        title=""> <img src="upload/tech_menu_05.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Tecnologia</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia2.html" title="">La
+                                          policia advierte de una nueva estafa
+                                          por Bizum</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia3.html"
+
+                                        title=""> <img src="upload/tech_menu_06.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Tecnologia</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia3.html" title="">Bill
+                                          Gates se divorcia tras 27años de
+                                          matrimonio</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat03" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia4.html"
+
+                                        title=""> <img src="upload/tech_menu_09.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Ocio
+                                          Media</span> </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia4.html" title="">Love
+                                          of Lesbian para 5.000 personas en
+                                          Barcelona</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat04" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia5.html"
+
+                                        title=""> <img src="upload/tech_menu_13.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Coches</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia5.html" title="">Han
+                                          conseuido hackear un Model X a
+                                          distancia usando un dron</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat05" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia6.html"
+
+                                        title=""> <img src="upload/tech_menu_17.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Videojuegos</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia6.html" title="">Epic
+                                          Games habría ofrecido 200 millones de
+                                          dólares a Sony por llevar sus
+                                          exclusivos a PC</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                          </div>
+                          <!-- end tab-details --> </div>
+                        <!-- end mega-menu-content --> </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="tech-contact.html">Contactar</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mr-2">
+                <li class="nav-item"> <br>
+                </li>
+                <li class="nav-item"> <br>
+                </li>
+                <li class="nav-item"> <br>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- end container-fluid --> </header>
+      <!-- end market-header -->
+      <section class="section single-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              <div class="page-wrapper">
+                <div class="blog-title-area text-center">
+                  <ol class="breadcrumb hidden-xs-down">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                    <li class="breadcrumb-item active">La policia advierte de
+                      una nueva estafa por Bizum</li>
+                  </ol>
+                  <span class="color-orange"><a href="tech-category-01.html" title="">Tecnologia</a></span>
+                  <h3>La policia advierte de una nueva estafa por Bizum</h3>
+                  <div class="blog-meta big-meta"> <br>
+                  </div>
+                  <!-- end meta --> </div>
+                <!-- end title --> <img src="images/Noticias/bizum.png" alt=""
+
+                  style="width: 887px; height: 499px;">
+                <!-- end media -->
+                <div class="blog-content">
+                  <div class="pp"><br>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Agentes
+                      adscritos al Grupo de<strong style="box-sizing: border-box;"><span>&nbsp;</span>Delitos
+                        Tecnológicos de la Policía Judicial</strong><span>&nbsp;</span>de
+                      la Jefatura Superior de Policía de la Rioja, alertan de un
+                      tipo concreto de<span>&nbsp;</span><strong style="box-sizing: border-box;">estafa</strong>,
+                      a través de la aplicación de '<strong style="box-sizing: border-box;">Bizum</strong>'.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">La
+                      clave de su éxito está en la inmediatez y la sencillez de
+                      los pagos, por ejemplo entre particulares se pude pasar
+                      dinero en 3 segundos. Cuando la cantidad es pequeña o la
+                      persona a la que se le pasa dinero es habitual,<span>&nbsp;</span><strong
+
+                        style="box-sizing: border-box;">hay bancos que no
+                        solicitan ningún pin extra</strong>. Pero sí en grandes
+                      cantidades. Lo habitual es que<span>&nbsp;</span><strong style="box-sizing: border-box;">Bizum<span>&nbsp;</span></strong>envíe
+                      un mensaje con un código al interesado que tiene que
+                      introducir para poder cerrar la operación.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">La
+                      cantidad máxima que se puede enviar al día es de 1.000
+                      euros, pero<span>&nbsp;</span><strong style="box-sizing: border-box;">se
+                        puede recibir hasta 2.000 euros</strong>. Precisamente
+                      la rapidez en los envíos y estas pequeñas cantidades han
+                      hecho de<span>&nbsp;</span><strong style="box-sizing: border-box;">Bizum
+                        un blanco fácil y ahora se ha visto envuelto en
+                        diferentes modalidades de estafa</strong>.</p>
+                    <h2 class="ue-c-article__subheadline" style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: Roboto_condensed, Tahoma, Geneva, sans-serif; font-weight: 700; font-style: normal; color: rgb(0, 0, 0); text-transform: uppercase; font-size: 1.1875rem; line-height: 1.375rem; letter-spacing: normal; padding-top: 0.625rem; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">ASÍ
+                      ES LA NUEVA ESTAFA POR BIZUM</h2>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Una
+                      de las modalidades más extendidas de estafa, denunciada
+                      esta misma semana en la Jefatura Superior de La Rioja, es
+                      el procedimiento mediante el cual un supuesto comprador,
+                      en este caso de un vehículo, se puso en contacto con el
+                      vendedor del mismo, manifestándoles que estaba interesado
+                      en su compra, indicándole que le pagaría en "concepto de
+                      reserva" la cantidad de 400 euros a través de la
+                      aplicación Bizum, aceptando el vendedor el procedimiento,
+                      si bien el supuesto comprador<span>&nbsp;</span><strong style="box-sizing: border-box;">en
+                        vez de realizar el pago, en su lugar envía una solicitud
+                        de dinero</strong><span>&nbsp;</span>con el objetivo de
+                      que su víctima sea quien envíe dicho importe, aceptándolo
+                      el vendedor y transfiriendo la cantidad de 400 euros al
+                      comprador.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-color: initial;">Posteriormente
+                      el vendedor al darse cuenta del error intenta contactar
+                      con el comprador y éste no da señales por lo que no tiene
+                      forma de que se le devuelva el dinero, acudiendo a estas
+                      dependencias policiales con el objetivo de interponer
+                      denuncia.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Otro
+                      de los ejemplos más extendido es en que las víctimas
+                      reciben una<span>&nbsp;</span><strong style="box-sizing: border-box;">llamada
+                        de teléfono desde su compañía telefónica</strong><span>&nbsp;</span>(supuestamente)
+                      para rebajarles la factura u ofrecerles regalos.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Si
+                      aceptaban la oferta, tienen que facilitar sus cuentas
+                      bancarias o tarjetas. Después los estafadores<span>&nbsp;</span><strong
+
+                        style="box-sizing: border-box;">asocian esas tarjetas o
+                        cuentas a Bizum</strong>. Como se necesita un<span>&nbsp;</span><strong
+
+                        style="box-sizing: border-box;">número PIN</strong><span>&nbsp;</span>para
+                      hacer las operaciones tiene que conseguir que las víctimas
+                      se lo faciliten de manera inconsciente, creyendo que es un
+                      código para activar la oferta de la operadora. Una vez que
+                      disponen del número de teléfono, cuenta o tarjeta y el
+                      PIN, se realizan las transferencias.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Los
+                      estafadores persuaden a los clientes para que se les
+                      facilite sus credenciales bancarias, "abusando de su buena
+                      fe". Y con ellas, posteriormente, operan en su nombre,
+                      haciendo transferencias desde sus cuentas o con<span>&nbsp;</span><strong
+
+                        style="box-sizing: border-box;">Bizum<span>&nbsp;</span></strong>según
+                      el caso.</p>
+                    <h2 class="ue-c-article__subheadline" style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: Roboto_condensed, Tahoma, Geneva, sans-serif; font-weight: 700; font-style: normal; color: rgb(0, 0, 0); text-transform: uppercase; font-size: 1.1875rem; line-height: 1.375rem; letter-spacing: normal; padding-top: 0.625rem; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">CONSEJOS
+                      PARA EVITAR CAER</h2>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Es
+                      muy fácil seguir ciertas recomendaciones para que los
+                      criminales no te engañen:<strong style="box-sizing: border-box;"><span>&nbsp;</span>si
+                        se han facilitado datos bancarios, se debe contactar
+                        directamente con el banco</strong><span>&nbsp;</span>para
+                      tomar las medidas de seguridad que correspondan y así
+                      evitar que se realicen cargos adicionales.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Vigilar
+                      regularmente qué información existe en Internet sobre uno
+                      mismo para detectar si los datos privados podrían ser
+                      utilizados sin consentimiento.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">En
+                      caso de haber instalado algún programa por indicación del
+                      supuesto operador, es aconsejable desinstalarlo y analizar
+                      el dispositivo con herramientas de desinfección para
+                      evaluar que realmente no existe ningún riesgo para
+                      posteriormente presentar una denuncia en la Jefatura del
+                      Cuerpo nacional de Policía más cercana.</p>
+                    <h2 class="ue-c-article__subheadline" style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: Roboto_condensed, Tahoma, Geneva, sans-serif; font-weight: 700; font-style: normal; color: rgb(0, 0, 0); text-transform: uppercase; font-size: 1.1875rem; line-height: 1.375rem; letter-spacing: normal; padding-top: 0.625rem; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">ESTAFA
+                      DEL 'ENVÍO DEL PAQUETE'</h2>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">'"Buenos
+                      días, estimado cliente: Su pedido se entregó el xxx en el
+                      punto de recogida. Consulte donde puede recoger sus
+                      paquetes: Enlace.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">"Se
+                      recuerda desde la Jefatura Superior que nuevamente se está
+                      recibiendo la estafa consistente en<span>&nbsp;</span><strong
+
+                        style="box-sizing: border-box;">recibir un SMS en el que
+                        avisan de la recepción de un paquete</strong><span>&nbsp;</span>suplantando
+                      a una empresa logística e invitan al receptor a instalarse
+                      una app para saber dónde, supuestamente, está el paquete.
+                      (<strong style="box-sizing: border-box;">Correos, FedEX,
+                        DHL</strong>, etc).Una vez que este troyano infecta los
+                      terminales, se establece como aplicación por defecto para
+                      SMS para así poder controlarlo, acceder a la agenda de
+                      contactos y provocar el reenvío automático de mensajes de
+                      tipo SMS.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Las
+                      personas que son infectados con este tipo de malware,
+                      envían sin que se percate el titular del teléfono, un SMS
+                      a todos los contactos de su agenda un mensaje simulando
+                      una empresa de paquetería con un enlace. Los receptores
+                      reciben el mensaje a su nombre (con el que figura en los
+                      contactos del infectado) y si proceden a introducir los
+                      datos requeridos a través del enlace, quedan también
+                      infectados, existiendo la posibilidad de que, dependiendo
+                      del mensaje, los datos que ha introducido sean bancarios y
+                      sufran, a posteriori, algún cargo en tarjeta o accesos a
+                      su banca online.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Otra
+                      modalidad, muy similar a la anterior, es la de envío de<strong
+
+                        style="box-sizing: border-box;"><span>&nbsp;</span>SMS
+                        falseados</strong><span>&nbsp;</span>enviados a los
+                      teléfonos móviles de los ciudadanos sobre un paquete
+                      pendiente de recogida, que contiene un enlace cuya
+                      consulta desencadena la descarga de una aplicación
+                      maliciosa destinada a acceder a los datos del terminal.En
+                      este caso, el mensaje advierte que el receptor tiene unas
+                      horas para confirmar el envío a través de un mensaje de
+                      móvil, ya que de lo contrario, se devolverá al remitente.
+                      Tras ello, se recibe un supuesto código que habrá que
+                      enviar a una supuesta dirección de correo electrónico.
+                      Finalmente, resulta ser una suscripción ilícita a
+                      servicios Premium de pago en diversas webs que se traducen
+                      en cargos fraudulentos en las tarjetas bancarias o
+                      recargos en las facturas de telefonía por recepción de
+                      mensajes SMS premium.</p>
+                    <h2 class="ue-c-article__subheadline" style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: Roboto_condensed, Tahoma, Geneva, sans-serif; font-weight: 700; font-style: normal; color: rgb(0, 0, 0); text-transform: uppercase; font-size: 1.1875rem; line-height: 1.375rem; letter-spacing: normal; padding-top: 0.625rem; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">CONSEJOS</h2>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">Además
+                      de preguntar a las empresas por esos SMS, hay varios pasos
+                      que puedes seguir para saber si ese mensaje tan tentador
+                      que has recibido es<span>&nbsp;</span><i style="box-sizing: border-box;">phishing</i>.
+                      Una de las cosas en las que puedes fijarte es en cómo está
+                      escrito, ya que si incluye faltas de ortografía o frases
+                      sin sentido es muy probable que no sea un mensaje real.</p>
+                    <p style="box-sizing: border-box; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0); font-weight: 400; font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-color: initial;">También
+                      puedes seguir estas recomendaciones para que no te la
+                      cuelen con este caso de timos:</p>
+                    <ol class="ue-c-article__list ue-c-article__list--ordered" style="box-sizing: border-box; padding: 0px; margin: 0px 0px 0.9375rem; font-family: PT_serif, &quot;Times New Roman&quot;, Times, serif; font-weight: 400; font-style: normal; color: rgb(0, 0, 0); font-size: 1.0625rem; line-height: 1.5625rem; letter-spacing: normal; counter-reset: contadorListas 0; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+                      <li style="box-sizing: border-box; list-style-type: none; margin: 0px 0px 0.9375rem; padding: 0px 0px 0px 1.375rem; position: relative;"><strong>1.</strong>
+                        Fíjate bien en el teléfono que te los envía. Consulta
+                        ese mismo número de teléfono en Internet antes y
+                        comprueba que es legítimo. Si no lo es, es posible que
+                        veas advertencias en la Red sobre posibles fraudes o de
+                        otros usuarios estafados.</li>
+                      <li style="box-sizing: border-box; list-style-type: none; margin: 0px 0px 0.9375rem; padding: 0px 0px 0px 1.375rem; position: relative;"><strong>2.</strong>
+                        Mira la dirección de la web a la que te redirige.
+                        Normalmente este tipo de notificaciones vienen con un
+                        link en el que te piden que introduzcas tus datos. Si la
+                        dirección web de esta página web no es de la empresa
+                        legítima, ojo porque puede ser similar pero nunca el
+                        mismo: incluirá guiones, números, alguna letra más,
+                        palabras como "online", "compra" que lo hagan parecerse
+                        al original. Vete a la web original y compara las
+                        direcciones de dominio.</li>
+                      <li style="box-sizing: border-box; list-style-type: none; margin: 0px 0px 0.9375rem; padding: 0px 0px 0px 1.375rem; position: relative;"><strong>3.</strong>
+                        Si una institución, supuestamente, se está poniendo en
+                        contacto contigo por teléfono, solicítales que te manden
+                        un correo personal con esa misma información, diles que
+                        les atenderás más tarde y consulta el teléfono en
+                        Internet. En todo caso, ninguna empresa o institución
+                        debe pedirte datos personales o bancarios por teléfono
+                        si tú no has sido quien haya solicitado el servicio a la
+                        empresa verdadera.</li>
+                      <li style="box-sizing: border-box; list-style-type: none; margin: 0px; padding: 0px 0px 0px 1.375rem; position: relative;"><strong>4.</strong>
+                        Contrasta con las fuentes antes de dar tus datos. Estos
+                        mensajes transmiten urgencia para que no te dé tiempo a
+                        reaccionar. Tómate tu tiempo para hacer las
+                        comprobaciones personales oportunas, los servicios que
+                        te requieran algo, siempre te darán un tiempo para ello.
+                        Si algo es urgente, sospecha.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+          </div>
+          <!-- end row --> </div>
+        <!-- end container --> </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="widget">
+                <div class="footer-text text-left"> <a href="index.html"><img src="images/version/tech-footer-logo.png"
+
+                      alt="" class="img-fluid"></a>
+                  <p>Es una pagina web donde encontraras noticias de todo tipo.</p>
+                  <div class="social"> <a href="https://www.facebook.com" data-toggle="tooltip"
+
+                      data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" data-toggle="tooltip" data-placement="bottom"
+
+                      title="Twitter"><i class="fa fa-twitter"></i></a> <a href="https://www.instagram.com"
+
+                      data-toggle="tooltip" data-placement="bottom" title="Instagram"><i
+
+                        class="fa fa-instagram"></i></a> <a href="https://www.pinterest.com"
+
+                      data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i
+
+                        class="fa fa-pinterest"></i></a> </div>
+                  <hr class="invis">
+                  <div class="newsletter-widget text-left">
+                    <form action="link-formulario.html" class="form-inline"> <input
+
+                        class="form-control" placeholder="Introduce aqui tu correo electronico"
+
+                        type="text"> <button type="submit" class="btn btn-primary">ENVIAR</button>
+                    </form>
+                  </div>
+                  <!-- end newsletter --> </div>
+                <!-- end footer-text --> </div>
+              <!-- end widget --> </div>
+            &nbsp; </div>
+          <table style="width: 533px; height: 153px;">
+            <tbody>
+              <tr>
+                <td style="text-align: center;"><a href="tech-index.html">Inicio</a>
+                </td>
+                <td style="text-align: center;">Paginas recomendadas:<br>
+                </td>
+                <td style="text-align: center;"><a href="tech.contact.html">Contacto</a></td>
+              </tr>
+              <tr>
+                <td><br>
+                </td>
+                <td style="text-align: center;">
+                  <ol>
+                    <li><a href="https://www.xataka.com/">Xataka</a></li>
+                    <li><a href="https://www.elperiodico.com/es/">El Periodico</a></li>
+                    <li><a href="https://www.lavanguardia.com/">La Vanguardia</a></li>
+                  </ol>
+                  <br>
+                </td>
+                <td><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="row">
+            <div class="col-md-12 text-center"><br>
+              <!-- Projecto Web M8 -->
+              <div class="copyright">© Tech Blog. Design: <a href="http://html.design">HTML
+                  Design</a>.</div>
+            </div>
+          </div>
+        </div>
+        <!-- end container --> </footer>
+      <!-- end footer -->
+      <div class="dmtop">Scroll to Top</div>
+    </div>
+    <!-- end wrapper -->
+    <!-- Core JavaScript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+  </body>
+</html>

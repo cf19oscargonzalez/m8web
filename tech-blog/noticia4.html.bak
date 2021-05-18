@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Basic -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Site Metas -->
+    <title>Tech Blog - Stylish Magazine Blog Template</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Design fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+
+      rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- FontAwesome Icons core CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Responsive styles for this template -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Colors for this template -->
+    <link href="css/colors.css" rel="stylesheet">
+    <!-- Version Tech CSS for this template -->
+    <link href="css/version/tech.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>    <![endif]-->
+  </head>
+  <body>
+    <div id="wrapper">
+      <header class="tech-header header">
+        <div class="container-fluid">
+          <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+
+              data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+
+              aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button> <a class="navbar-brand" href="tech-index.html"><img src="images/version/tech-logo.png"
+
+                alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item"> <a class="nav-link" href="tech-index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown has-submenu menu-large hidden-md-down hidden-sm-down hidden-xs-down">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+
+                    aria-haspopup="true" aria-expanded="false">Noticias</a>
+                  <ul class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+                    <li>
+                      <div class="container">
+                        <div class="mega-menu-content clearfix">
+                          <div class="tab"> <button class="tablinks active" onclick="openCategory(event, 'cat01')">Cultura</button>
+                            <button class="tablinks" onclick="openCategory(event, 'cat02')">Tecnologia</button>
+                            <button class="tablinks" onclick="openCategory(event, 'cat03')">Ocio
+                              </button> <button class="tablinks" onclick="openCategory(event, 'cat04')">Coches
+                              </button> <button class="tablinks" onclick="openCategory(event, 'cat05')">Videojuegos</button>
+                          </div>
+                          <div class="tab-details clearfix">
+                            <div id="cat01" class="tabcontent active">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia1.html"
+
+                                        title=""> <img src="upload/tech_menu_01.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Cultura</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia1.html" title="">La
+                                          piedra de la discordia: Un granjero
+                                          mueve ua roca y cambia la frontera</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat02" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia2.html"
+
+                                        title=""> <img src="upload/tech_menu_05.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Tecnologia</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia2.html" title="">La
+                                          policia advierte de una nueva estafa
+                                          por Bizum</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia3.html"
+
+                                        title=""> <img src="upload/tech_menu_06.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Tecnologia</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia3.html" title="">Bill
+                                          Gates se divorcia tras 27años de
+                                          matrimonio</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat03" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia4.html"
+
+                                        title=""> <img src="upload/tech_menu_09.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Ocio
+                                          Media</span> </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia4.html" title="">Love
+                                          of Lesbian para 5.000 personas en
+                                          Barcelona</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat04" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia5.html"
+
+                                        title=""> <img src="upload/tech_menu_13.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Coches</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia5.html" title="">Han
+                                          conseuido hackear un Model X a
+                                          distancia usando un dron</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                            <div id="cat05" class="tabcontent">
+                              <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="blog-box">
+                                    <div class="post-media"> <a href="noticia6.html"
+
+                                        title=""> <img src="upload/tech_menu_17.jpg"
+
+                                          alt="" class="img-fluid">
+                                        <div class="hovereffect"> </div>
+                                        <!-- end hover --> <span class="menucat">Videojuegos</span>
+                                      </a> </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta">
+                                      <h4><a href="noticia6.html" title="">Epic
+                                          Games habría ofrecido 200 millones de
+                                          dólares a Sony por llevar sus
+                                          exclusivos a PC</a></h4>
+                                    </div>
+                                    <!-- end meta --> </div>
+                                  <!-- end blog-box --> </div>
+                              </div>
+                              <!-- end row --> </div>
+                          </div>
+                          <!-- end tab-details --> </div>
+                        <!-- end mega-menu-content --> </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="tech-contact.html">Contactar</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mr-2">
+                <li class="nav-item"> <br>
+                </li>
+                <li class="nav-item"> <br>
+                </li>
+                <li class="nav-item"> <br>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- end container-fluid --> </header>
+      <!-- end market-header -->
+      <section class="section single-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              <div class="page-wrapper">
+                <div class="blog-title-area text-center">
+                  <ol class="breadcrumb hidden-xs-down">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                    <li class="breadcrumb-item active">Love of Lesbian para
+                      5.000 personas en Barcelona</li>
+                  </ol>
+                  <span class="color-orange"><a href="tech-category-01.html" title="">Ocio</a></span>
+                  <h3>Love of Lesbian para 5.000 personas en Barcelona<!-- end meta -->
+                  </h3>
+                  <!-- end post-sharing --> </div>
+                <!-- end title -->
+                <div class="single-post-media"> <img src="images/Noticias/QNXHY7GH5BGNRFHQIBR6YWZPIY.jpg"
+
+                    class="img-fluid"> </div>
+                <!-- end media -->
+                <div class="blog-content">
+                  <div class="pp">Suena Nadie por las calles en el Palau Sant
+                    Jordi y 5.000 personas saltan, se emocionan, vibran juntas.
+                    Es la primera canción del concierto que ha ofrecido este
+                    sábado en Barcelona el grupo de rock Love of Lesbian, el
+                    primero multitudinario de la pandemia. Pareciera que por un
+                    momento que la vida vuelve a ser como antes, cuando la
+                    música era pasión compartida entre apretujones.<br>
+                    <br>
+                    Todo comenzó mucho antes, a primera hora de la mañana.
+                    Razzmatazz, Apolo y Luz De Gas, salas barcelonesas cerradas
+                    por la pandemia, abrían a una hora desacostumbrada para el
+                    rock para servir de sede en una prueba piloto para ensayar
+                    cómo puede ser el futuro de las actividades multitudinarias.
+                    Allí se realizaron los test para certificar que los
+                    asistentes al concierto de la noche no estaban infectados.</div>
+                  <div class="pp"><br>
+                  </div>
+                  <div class="pp">Los participantes se sentían pioneros; lo son
+                    en Europa. La pista de Razzmatazz estaba parcelada en 16
+                    cabinas donde todo era amabilidad y fluidez. El resultado
+                    llegaba al móvil mediante una aplicación de control. Tiene
+                    un calendario para indicar la edad. Arranca en marzo de 2003
+                    ―18 es la edad mínima― pero no llega hasta 1956, año en el
+                    que nacieron quienes no alcanzan, por los pelos, los 65 de
+                    edad máxima. Tras 10 minutos de espera en el exterior de
+                    Razzmatazz, el resultado: un negativo que permite el acceso
+                    al concierto.</div>
+                  <div class="pp"><br>
+                  </div>
+                  <div class="pp">Palau Sant Jordi, 17.00. Hay cuatro colas de
+                    acceso, de modo que se evitan aglomeraciones disponiendo
+                    entradas y salidas segmentadas. Cada una cuenta con sus
+                    propias barras y lavabos. En una carpa se realizan pruebas
+                    de antígenos a quienes con entrada adquirida (23 y 27 euros
+                    con derecho a mascarilla FFP2 que se entrega en las puertas)
+                    no han llegado a hacérsela en las ocho horas habilitadas.
+                    Cinco mil verificadas. A las 13.45 solo cuatro habían
+                    resultado positivos y dos personas más confinadas por
+                    proximidad con ellos. Para acceder al recinto, exquisito y
+                    exhaustivo control que conduce a enseñar dos veces el móvil
+                    cuya aplicación indica que el resultado de la prueba es
+                    negativo.<br>
+                    <br>
+                    Hay abundante gel y mucho servicio de información. Son
+                    algunas de las pautas que el equipo científico del hospital
+                    Germans Trias i Pujol ―contactado por los promotores de
+                    festivales y salas de conciertos de Cataluña que sufragan la
+                    prueba― ha desarrollado como continuación de la ya realizada
+                    en un concierto en la sala Apolo, también en Barcelona, el
+                    pasado diciembre con una asistencia de 500 personas. Fue
+                    exitosa, sin contagios. Esta cuesta 200.000 euros, de los
+                    que se recuperarán unos 90.000 por la venta de entradas. El
+                    resto se espera cubrir con aportaciones públicas y
+                    patrocinios.<br>
+                    <span style="color: rgb(63, 63, 66); font-family: ReithSans, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(253, 253, 253); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span></div>
+                  <!-- end pp -->&nbsp; </div>
+                <!-- end title -->
+                <!-- end row --><!-- end author-box -->
+                <hr class="invis1"> </div>
+            </div>
+          </div>
+        </div>
+        <!-- end container --> </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="widget">
+                <div class="footer-text text-left"> <a href="index.html"><img src="images/version/tech-footer-logo.png"
+
+                      alt="" class="img-fluid"></a>
+                  <p>Es una pagina web donde encontraras noticias de todo tipo.</p>
+                  <div class="social"> <a href="https://www.facebook.com" data-toggle="tooltip"
+
+                      data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" data-toggle="tooltip" data-placement="bottom"
+
+                      title="Twitter"><i class="fa fa-twitter"></i></a> <a href="https://www.instagram.com"
+
+                      data-toggle="tooltip" data-placement="bottom" title="Instagram"><i
+
+                        class="fa fa-instagram"></i></a> <a href="https://www.pinterest.com"
+
+                      data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i
+
+                        class="fa fa-pinterest"></i></a> </div>
+                  <hr class="invis">
+                  <div class="newsletter-widget text-left">
+                    <form action="link-formulario.html" class="form-inline"> <input
+
+                        class="form-control" placeholder="Introduce aqui tu correo electronico"
+
+                        type="text"> <button type="submit" class="btn btn-primary">ENVIAR</button>
+                    </form>
+                  </div>
+                  <!-- end newsletter --> </div>
+                <!-- end footer-text --> </div>
+              <!-- end widget --> </div>
+            <!-- end col -->
+            <!-- end col -->
+            <!-- end col --> </div>
+          <table style="width: 533px; height: 153px;">
+            <tbody>
+              <tr>
+                <td style="text-align: center;"><a href="tech-index.html">Inicio</a>
+                </td>
+                <td style="text-align: center;">Paginas recomendadas:<br>
+                </td>
+                <td style="text-align: center;"><a href="tech.contact.html">Contacto</a></td>
+              </tr>
+              <tr>
+                <td><br>
+                </td>
+                <td style="text-align: center;">
+                  <ol>
+                    <li><a href="https://www.xataka.com/">Xataka</a></li>
+                    <li><a href="https://www.elperiodico.com/es/">El Periodico</a></li>
+                    <li><a href="https://www.lavanguardia.com/">La Vanguardia</a></li>
+                  </ol>
+                  <br>
+                </td>
+                <td><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="row">
+            <div class="col-md-12 text-center"> <br>
+              <!-- Projecto Web M8 -->
+              <div class="copyright">© Tech Blog. Design: <a href="http://html.design">HTML
+                  Design</a>.</div>
+            </div>
+          </div>
+        </div>
+        <!-- end container --> </footer>
+      <!-- end footer -->
+      <div class="dmtop">Scroll to Top</div>
+    </div>
+    <!-- end wrapper -->
+    <!-- Core JavaScript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
